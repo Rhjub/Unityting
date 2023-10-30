@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class PlayerCollect : MonoBehaviour
+public class PlayerUI : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
     public int score = 0;
-    public Text scoreText;
+    public TextMeshProUGUI scoreText; // Assign this in the Unity Editor
 
     private void Awake()
     {
